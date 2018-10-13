@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework - Module 4 - Stock App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-6" class="wrapper">
+            <header>
+                <div class="row">
+                    <h1>Latest Stock Info</h1>
+                    <h6>Provided by IEX Trading</h6>
+                </div>
+
+            </header>
+            <br>
+            </p>
+            <div class="addStockButton">
+                <input id="inputSymbol" placeholder="Input stock symbol" /><button id="addButton">Add</button>
+            </div>
+            <br>
+            <br>
+            <p>
+                <div class="row">
+                    <div class="favStock"></div>
+                    <div class="newStock"></div>
+                </div>
+                <br>
+                <br>
+                <p>
+                    <h6>Click stock buttons for real-time updates!</h6>
+        </div>
+
+
+        <div class="col-6" id="stock-content">
+
+            </p>
+            <p>
+                <h2 class="h2"><strong>Stock Info and News</strong></h2>
+            </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="stockInfoExpand"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="iexTrading.js"></script>
+</body>
+
+</html>
